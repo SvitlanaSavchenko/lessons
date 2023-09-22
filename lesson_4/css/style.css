@@ -1,0 +1,50 @@
+/* Скидання стилів*/
+
+@import url("reset.css");
+
+/* Основні стилі */
+
+* {
+  color: darkblue;
+}
+
+blockquote {
+  color: gray;
+}
+
+.text-color-blu {
+  color: blue;
+}
+
+.text-color-red {
+  color: red;
+}
+
+[class*="__title"] {
+  color: white;
+  background-color: midnightblue;
+}
+
+#kumechko {
+  color: chartreuse;
+}
+
+p.text-foto {
+  color: steelblue;
+}
+
+div > a {
+  color: purple;
+}
+
+.navigation__list.navigation__link {
+  color: chocolate;
+}
+
+.text + p {
+  color: gold;
+}
+
+.footer__container p {
+  color: black;
+}
