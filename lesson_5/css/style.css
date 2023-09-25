@@ -1,0 +1,97 @@
+/* Скидання стилів*/
+
+@import url("reset.css");
+
+@import url("maket.css");
+
+/* Підключення шрифтів для статті. Перша частина ДЗ */
+
+@font-face {
+  font-family: Cambria;
+  src: url("../fonts/Cambria.woff2") format("woff2"),
+    url("../fonts/Cambria.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Cambria;
+  src: url("../fonts/Cambria-Bold.woff") format("woff2"),
+    url("../fonts/Cambria-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lucida Grande";
+  src: url("../fonts/lucidagrande.woff2") format("woff2"),
+    url("../fonts/lucidagrande.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lucida Grande";
+  src: url("../fonts/lucidagrande_bold.woff2") format("woff2"),
+    url("../fonts/lucidagrande_bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Основні стилі */
+
+body {
+  font-family: Cambria, serif;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.text {
+  font-size: 36px;
+  font-weight: 800;
+  color: darkslateblue;
+  text-align: justify;
+  text-shadow: 5px 5px 3px #79828b;
+  text-transform: capitalize;
+}
+.link {
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 20px;
+  color: rgb(139, 0, 12);
+  font-style: oblique;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: CustomSansSerif, "Lucida Grande", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 21px 21px 12px;
+  line-height: 1.06;
+}
+[class*="__title"] {
+  font-family: CustomSansSerif, "Lucida Grande", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  margin: 18px 21px 9px;
+  line-height: 1.58;
+}
+p,
+strong {
+  text-indent: 20px;
+  line-height: 1.58;
+}
+.navigation__text {
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #79828b;
+  margin: 12px 21px;
+  letter-spacing: 7px;
+  white-space: nowrap;
+  word-spacing: 10px;
+}

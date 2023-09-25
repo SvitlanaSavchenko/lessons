@@ -1,0 +1,56 @@
+@import url("reset.css");
+
+/* Підключення шрифтів */
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+
+/* Основні стилі */
+
+body {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 18px;
+}
+
+p {
+  line-height: 1.46; /* 26.314px */
+}
+img {
+  width: 40%;
+}
+.title {
+  color: darkblue;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.27; /* 50.8px */
+}
+
+.information__title {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.27; /* 50.8px */
+}
+
+.list {
+  font-weight: 500;
+  line-height: 1.46; /* 26.314px */
+}
+
+.why-us__title {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.27; /* 38.1px */
+}
+
+.content {
+  color: #6b77e5;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.27; /* 25.4px */
+}
